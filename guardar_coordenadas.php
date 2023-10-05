@@ -1,13 +1,14 @@
 <?php
 // Conexión a la base de datos MySQL en Hostinger
-$servername = "https://midemo.tech";
+$servername = "localhost"; // Cambia esto a "localhost" si la base de datos está en el mismo servidor web
 $username = "u197809344_eg0381";
 $password = "Jamboree0381$$";
 $dbname = "u197809344_autonobot";
 
+// Crear una conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Verifica la conexión
+// Verificar la conexión
 if ($conn->connect_error) {
     die("Error de conexión a la base de datos: " . $conn->connect_error);
 }
