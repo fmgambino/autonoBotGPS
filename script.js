@@ -80,7 +80,7 @@ function createRoute() {
         const jsonData = JSON.stringify(coordinates);
 
         // Enviar los datos JSON al servidor PHP a través de una solicitud AJAX
-        fetch('tu-servidor-en-hostinger.com/guardar_coordenadas.php', {
+        fetch('https://autonobot.midemo.tech/guardar_coordenadas.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
