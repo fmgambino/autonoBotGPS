@@ -1,9 +1,9 @@
 <?php
 // Conexión a la base de datos MySQL en Hostinger
-$servername = "tu-servidor-mysql-en-hostinger.com";
-$username = "tu-usuario";
-$password = "tu-contraseña";
-$dbname = "tu-base-de-datos";
+$servername = "https://midemo.tech";
+$username = "u197809344_eg0381";
+$password = "Jamboree0381$$";
+$dbname = "u197809344_autonobot";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
