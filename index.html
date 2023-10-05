@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambino Bot Auto Tracker 2023</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Robot Autonomo by Gambino </h1>
+        <div id="search-container">
+            <input type="text" id="locationInput" placeholder="Ingrese un lugar">
+            <button id="searchButton">Buscar</button>
+        </div>
+    </header>
+    <main>
+        <div id="map"></div>
+    </main>
+    <div id="menu-container">
+        <div id="buttons">
+            <button id="crearPunto">Agregar Punto</button>
+            <button id="crearRuta">Crear Ruta</button>
+            <button id="resetRuta">Resetear Ruta</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
