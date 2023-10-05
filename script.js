@@ -89,9 +89,11 @@ function createRoute() {
         })
         .then(response => response.json())
         .then(data => {
+            alert('Coordenadas guardadas correctamente en la Base de Datos.');
             console.log(data); // Puedes manejar la respuesta del servidor aquí
         })
         .catch(error => {
+            alert('Error al procesar o enviar las coordenadas a la Base de Datos.');
             console.error("Error al enviar coordenadas al servidor:", error);
         });
     } else {
