@@ -81,7 +81,7 @@ function createRoute() {
 
         // Enviar los datos JSON al servidor PHP a través de una solicitud AJAX
         fetch('https://autonobot.midemo.tech/guardar_coordenadas.php', {
-            method: 'GET',
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
